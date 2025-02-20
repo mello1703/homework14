@@ -28,7 +28,6 @@ if __name__ == "__main__":
 
     print(category1.name == "Смартфоны")
     print(category1.description)
-    print(len(category1.products))
     print(category1.category_count)
     print(category1.product_count)
 
@@ -39,7 +38,6 @@ if __name__ == "__main__":
 
     print(category2.name)
     print(category2.description)
-    print(len(category2.products))
 
     print(Category.category_count)
     print(Category.product_count)
