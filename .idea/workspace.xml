@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f37fa500-9e18-4cd5-b0ea-4f4d39d71386" name="Changes" comment="add func class_lawngrass.py&#10;add func class_smartphone.py&#10;add test_class_lawngrass.py&#10;add test_class_smartphone.py&#10;add main_16.1">
+      <change afterPath="$PROJECT_DIR$/main_16.2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Base_roduct.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class_mixin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_class_mixin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_16.1.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,19 +66,25 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python tests.Python tests for test_category.test_init_product.executor": "Run",
+    "Python tests.Python tests for test_mixin.test_mixin_print.executor": "Run",
+    "Python tests.Python tests for test_mixin.test_mixin_print_lg.executor": "Run",
+    "Python tests.Python tests for test_mixin.test_mixin_print_sph.executor": "Run",
     "Python tests.Python tests for test_product.test_init_product.executor": "Run",
     "Python tests.Python tests for test_product.test_init_product.test_product.executor": "Run",
     "Python tests.Python tests for test_product.test_product.executor": "Run",
     "Python tests.Python tests in test_category.py.executor": "Run",
     "Python tests.pytest in tests.executor": "Run",
     "Python.category.executor": "Run",
+    "Python.class_mixin.executor": "Run",
     "Python.main.executor": "Run",
     "Python.main_14.2.executor": "Run",
     "Python.main_15.1.executor": "Run",
     "Python.main_16.1.executor": "Run",
+    "Python.main_16.2.executor": "Run",
+    "Python.order.executor": "Run",
     "Python.product.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/homework16.1",
+    "git-widget-placeholder": "feature/homework__16.2",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
@@ -86,7 +104,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_product.test_init_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.test_class_mixin.test_mixin_print" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="homework_14" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,11 +115,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_product.test_init_product&quot;" />
+      <option name="_new_target" value="&quot;tests.test_class_mixin.test_mixin_print&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_product.test_init_product.test_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.test_class_mixin.test_mixin_print_lg" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="homework_14" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,11 +130,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_product.test_init_product.test_product&quot;" />
+      <option name="_new_target" value="&quot;tests.test_class_mixin.test_mixin_print_lg&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_product.test_product" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.test_class_mixin.test_mixin_print_sph" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="homework_14" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,7 +145,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_product.test_product&quot;" />
+      <option name="_new_target" value="&quot;tests.test_class_mixin.test_mixin_print_sph&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -166,19 +184,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest in tests" />
-      <item itemvalue="Python tests.Python tests for test_product.test_init_product" />
-      <item itemvalue="Python tests.Python tests for test_product.test_init_product.test_product" />
-      <item itemvalue="Python tests.Python tests for test_product.test_product" />
+      <item itemvalue="Python tests.Python tests for tests.test_class_mixin.test_mixin_print" />
+      <item itemvalue="Python tests.Python tests for tests.test_class_mixin.test_mixin_print_lg" />
+      <item itemvalue="Python tests.Python tests for tests.test_class_mixin.test_mixin_print_sph" />
       <item itemvalue="Python tests.Python tests for test_category.test_init_product" />
       <item itemvalue="Python tests.Python tests in test_category.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for tests.test_class_mixin.test_mixin_print_lg" />
+        <item itemvalue="Python tests.Python tests for tests.test_class_mixin.test_mixin_print_sph" />
+        <item itemvalue="Python tests.Python tests for tests.test_class_mixin.test_mixin_print" />
         <item itemvalue="Python tests.Python tests in test_category.py" />
         <item itemvalue="Python tests.Python tests for test_category.test_init_product" />
-        <item itemvalue="Python tests.Python tests for test_product.test_product" />
-        <item itemvalue="Python tests.Python tests for test_product.test_init_product.test_product" />
-        <item itemvalue="Python tests.Python tests for test_product.test_init_product" />
       </list>
     </recent_temporary>
   </component>

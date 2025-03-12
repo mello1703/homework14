@@ -1,7 +1,11 @@
+from typing import Any
+from src.base import Base
 from src.product import Product
 
 
-class Category:
+class Category(Base):
+    """Категория товара"""
+
     name: str
     description: str
     products: list
@@ -22,8 +26,7 @@ class Category:
             total_products += product.quantity
         return f"{self.name}, количество продуктов: {total_products} шт."
 
-    def add_product(self, product: Product) -> None:
-        """Возвращает сообщение об ошибке, если цена меньше или равна нулю"""
+    def add_product(self, product: Product) -> Any:
         if isinstance(product, Product):
             self.__products.append(product)
             Category.product_count += 1
