@@ -57,5 +57,15 @@ def test_cat_get_product_list_property(first_category, second_category):
 
 
 def test_category_str(first_category, second_category):
-    assert str(first_category) == "Category, количество продуктов: 44 шт."
-    assert str(second_category) == "Category number two, количество продуктов: 76 шт."
+    assert str(first_category) == "Category, количество продуктов: 2 шт."
+    assert str(second_category) == "Category number two, количество продуктов: 3 шт."
+
+
+def test_add_product_error(first_category):
+    with pytest.raises(TypeError):
+        first_category.add_product(1)
+
+
+def test_middle_price(first_category, category_without_products):
+    assert first_category.middle_price() == 120.185
+    assert category_without_products.middle_price() == 0
